@@ -1,0 +1,33 @@
+﻿生成启动时间为 2020/3/28 17:13:51。
+     1>项目“D:\test1\test1\test1\test1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing test1.h...
+         Uic'ing test1.ui...
+         Rcc'ing test1.qrc...
+     1>RCC : warning : No resources in 'D:\test1\test1\test1\test1.qrc'.
+         
+       ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\QT5.5.1\5.5\msvc2013_64\include\QtCore /ID:\QT5.5.1\5.5\msvc2013_64\include\QtGui /ID:\QT5.5.1\5.5\msvc2013_64\include\QtNetwork /ID:\QT5.5.1\5.5\msvc2013_64\include\QtQml /ID:\QT5.5.1\5.5\msvc2013_64\include\QtScript /ID:\QT5.5.1\5.5\msvc2013_64\include\QtWidgets /ID:\MyLibrary\Release\ndicapi\include /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_QML_LIB /D QT_SCRIPT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_test1.cpp
+         qrc_test1.cpp
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\QT5.5.1\5.5\msvc2013_64\include\QtCore /ID:\QT5.5.1\5.5\msvc2013_64\include\QtGui /ID:\QT5.5.1\5.5\msvc2013_64\include\QtNetwork /ID:\QT5.5.1\5.5\msvc2013_64\include\QtQml /ID:\QT5.5.1\5.5\msvc2013_64\include\QtScript /ID:\QT5.5.1\5.5\msvc2013_64\include\QtWidgets /ID:\MyLibrary\Release\ndicapi\include /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_QML_LIB /D QT_SCRIPT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_test1.cpp main.cpp PolarisAPI.cpp test1.cpp
+         moc_test1.cpp
+         main.cpp
+         PolarisAPI.cpp
+         test1.cpp
+     1>test1.cpp(21): warning C4129: “s”: 不可识别的字符转义序列
+     1>test1.cpp(21): warning C4129: “8”: 不可识别的字符转义序列
+     1>test1.cpp(33): warning C4129: “s”: 不可识别的字符转义序列
+     1>test1.cpp(33): warning C4129: “8”: 不可识别的字符转义序列
+         正在生成代码...
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\test1\test1\x64\Release\\test1.exe" /NOLOGO /LIBPATH:D:\QT5.5.1\5.5\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Network.lib Qt5Qml.lib Qt5Script.lib Qt5Widgets.lib D:\ndicapi\lib\ndicapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\test1\test1\x64\Release\test1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\test1\test1\x64\Release\test1.lib" /MACHINE:X64 x64\Release\qrc_test1.obj
+         x64\Release\moc_test1.obj
+         x64\Release\main.obj
+         x64\Release\PolarisAPI.obj
+         x64\Release\test1.obj
+         test1.vcxproj -> D:\test1\test1\x64\Release\test1.exe
+     1>已完成生成项目“D:\test1\test1\test1\test1.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.08
